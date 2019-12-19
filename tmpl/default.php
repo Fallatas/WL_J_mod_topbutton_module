@@ -9,7 +9,7 @@
 
 defined('_JEXEC') or die;
 
-JHtml::_('stylesheet', 'mod_wl_topbutton_module/style.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'mod_wl_topbutton_module/w3.css.min.css', array('version' => 'auto', 'relative' => true));
 JHtml::_('stylesheet', 'mod_wl_topbutton_module/style.css', array('version' => 'auto', 'relative' => true));
 JHtml::_('script', 'mod_wl_topbutton_module/scripts.js', array('version' => 'auto', 'relative' => true));
 JHtml::_('jQuery.Framework');
