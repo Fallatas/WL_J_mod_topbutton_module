@@ -10,9 +10,10 @@
 defined('_JEXEC') or die;
 
 JHtml::_('stylesheet', 'mod_wl_topbutton_module/style.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'mod_wl_topbutton_module/style.css', array('version' => 'auto', 'relative' => true));
 JHtml::_('script', 'mod_wl_topbutton_module/scripts.js', array('version' => 'auto', 'relative' => true));
 JHtml::_('jQuery.Framework');
 ?>
-<div id="wl_topbutton_module">
-    <span>Topbutton</span>
+<div id="topbutton" class="button-style">
+            <a href="index.php"><i class="fa fa-home w3-jumbo w3-text-orange"></i></a>
 </div>
