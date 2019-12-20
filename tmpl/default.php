@@ -9,8 +9,8 @@
 
 defined('_JEXEC') or die;
 
-JHtml::_('stylesheet', 'mod_wl_topbutton_module/w3.css', array('version' => 'auto', 'relative' => true));
-JHtml::_('stylesheet', 'mod_wl_topbutton_module/font-awesome.min.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'https://www.w3schools.com/w3css/4/w3.css', array('version' => 'auto', 'relative' => true));
+JHtml::_('stylesheet', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', array('version' => 'auto', 'relative' => true));
 JHtml::_('stylesheet', 'mod_wl_topbutton_module/style.css', array('version' => 'auto', 'relative' => true));
 JHtml::_('script', 'mod_wl_topbutton_module/scripts.js', array('version' => 'auto', 'relative' => true));
 JHtml::_('jQuery.Framework');
